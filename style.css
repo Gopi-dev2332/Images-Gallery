@@ -1,101 +1,378 @@
-/* div{
-    display: flex;
+
+/* bdrder-radius */
+/* .one{
+    width: 200px;
+    height: 200px;
     background-color: aquamarine;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content:space-evenly;
-    
-    
+    border: 2px solid;
+    border-radius: 10px;
 }
- div > h1{
-    margin: 10px;
-    background-color: yellow;
+
+.two{
+    width: 200px;
+    height: 200px;
+    background-color: aquamarine;
+    border: 2px solid;
+    border-radius: 50%;
+}
+
+.three{
+    width: 200px;
+    height: 200px;
+    background-color: aquamarine;
+    border: 2px solid;
+    border-top-left-radius: 35px;
+}
+
+
+.four{
+    width: 200px;
+    height: 200px;
+    background-color: aquamarine;
+    border: 2px solid;
+    border-top-right-radius: 40px;
+}
+
+
+.five{
+    width: 200px;
+    height: 200px;
+    background-color: aquamarine;
+    border: 2px solid;
+    border-bottom-right-radius: 50px;
+}
+
+
+.six{
+    width: 200px;
+    height: 200px;
+    background-color: aquamarine;
+    border: 2px solid;
+    border-bottom-left-radius:30px;
+}
+
+.seven{
+    width: 200px;
+    height: 200px;
+    background-color: aquamarine;
+    border: 2px solid;
+    border-radius: 10px 20px 40px 70px;
+}
+
+.eight{
+    width: 200px;
+    height: 200px;
+    background-color: aquamarine;
+    border: 2px solid;
+    border-radius: 30px 70px;
+}
+
+.nine{
+    width: 200px;
+    height: 200px;
+    background-color: aquamarine;
+    border: 2px solid;
+    border-radius: 40px 80px 60px;
+} */
+
+
+/* css background  */
+
+
+/* h2{
+    font-family: cursive;
+    background: url(backlit.jpg);
+    background-repeat: no-repeat;
+    background-size: contain ;
+} */
+
+/* h2{
+    font-family: cursive;
+    background-size: 100px 100px;
+    background-image: url(backlit.jpg);
+    background-repeat: no-repeat;
+    border: 3px dotted;
+    padding: 10px;
+    background-origin: content-box;
+} */
+
+/* h2{
+    font-family: cursive;
+    background: yellow;
+    padding: 10px;
+    border: 4px dotted;
+    background-clip:content-box;
+} */
+
+
+/* css color keywords */
+
+/* h1{
+    border: 2px solid;
+    text-align: center;
     padding: 5px;
-    
+    background-color: blanchedalmond;
+    color: transparent;
+} */
+
+
+/* div{
+    border: 7px solid;
+    color: blue;
+    border-color: currentColor;
+} */
+
+
+/* div{
+    border: 7px solid red;
+    padding: 10px;
+
+}
+
+p{
+    font-size: 20px;
+    font-family: cursive;
+    border: inherit;
+} */
+
+/* css gradient */
+
+/* body{
+    background-image: linear-gradient(380deg, red,green,yellow);
+    height: 700px;
+    overflow: hidden;
+} */
+
+/* body{
+   background-image: repeating-linear-gradient(red ,yellow 10%,green 20%);
+   height: 500px;
+
+}  */
+
+
+ /* body{
+    background-image: radial-gradient(farthest-side at center,red,yellow);
+    height: 700px;
+    overflow: hidden;
+}  */
+
+/* body{
+    background-image: repeating-radial-gradient(circle at bottom,red,yellow 10%,green 15%);
+    height: 700px;
+    overflow: hidden;
+}
+ */
+ /* css text and box shadow  */
+
+/* h1{
+    text-shadow: 2px 3px 5px blue;
+} */
+
+/* h1{
+    color: aqua;
+    text-shadow: -1px 0 black,0 1px black,1px 0 black,0 -1px black;
+} */
+
+
+/* div{
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+    border: 2px solid;  'spread radius'
+    box-shadow: 5px 5px 7px  lightseagreen inset;
+}    */
+
+
+/* Responsive images */
+/* img{
+    max-width: 100%;
+    height: auto;
+    overflow-y: hidden;
+} */
+
+
+/* css images filters */
+
+/* img{
+    width: 300px;
+    height: 300px;
  } */
 
-/* div{
-    background-color: aqua;
-    display: flex;
-    width: 400px;
+ /* img
+ {
+       filter: blur(4px);
+ } */
+
+ /* img{
+    filter: brightness(200%);
+ } */
+
+/* img{
+    filter: contrast(250%);
+} */
+
+/* img{
+    filter: drop-shadow(3px 3px 7px lightseagreen);
+} */
+
+/* img{
+    filter: grayscale(50%);
+} */
+/* 
+img{
+    filter: hue-rotate(200deg);
+} */
+
+/* img{
+    filter: invert(70%);
+} */
+
+/* img{
+    filter: opacity(0.5);
+} */
+/* 
+img{
+    filter: saturate(170%);
+} */
+/* 
+img{
+    filter: sepia(80%);
+} */
+
+
+
+/* css images shapes */
+/* img{
+    width: 300px;
     height: 300px;
-    flex-wrap: wrap;
-    align-content: space-evenly;
- 
-}
+} */
 
-div > h1{
-    background-color: yellow;
-    height: fit-content;
-    margin: 10px;
-    padding: 5px;
+/* img{
+    clip-path: circle(50%);
+} */
+ 
+
+/* img{
+    clip-path: ellipse(40% 50%);
+} */
+
+/* img{
+    clip-path: polygon(50% 0,100% 50%,50% 100%,0% 50%);
 } */
 
 
 
-/* flex-items*/
+/* img{
+    float: left;
+    clip-path: circle(50%);
+    shape-outside:circle(55%);
+    margin: 10px;
+}
+
+p{
+    font-family: cursive;
+    font-size: 20px;
+} */
+
+
+/* css image mask */
+
+/* .mask{
+    -webkit-mask-image: url(images.png);
+    mask-image: url(images.png);
+    mask-repeat: no-repeat;
+    width: 500px;
+    height: 500px;
+} */
+
+/* css resize property */
 
 /* div{
-    background-color: aqua;
-    display: flex;
-    height: 200px;
+    border: 2px solid;
+    width: 170px;
+    padding: 7px;
+    margin: 10px;
+}
+.hori{
+    resize: horizontal;
 }
 
-div > h1{
-    background-color: yellow;
-    margin: 10px;
-    padding: 5px;
-    height: fit-content;
-    
+.ver{
+    resize: vertical;
+}
+
+.hv{
+    resize: both;
 } */
 
 
 
-/* Flex-box image gallery */
-.flex-container{
-    display: flex;
-    flex-wrap:wrap;
-    justify-content: space-evenly;
-    align-content: space-evenly;
-    background-color: aquamarine;
-    width: 76%;
-    margin: 30px auto 30px auto;
-    border: 2px solid;
-    border-radius: 30px;
-}
+/* css variables */
+/* 
 
-.flex-container > h1{
-    font-family: cursive;
-    width: 100%;
-    text-align: center;
-}
-
-.flex-container > div{
-    margin: 10px;
-    flex-basis: 20%;
-    opacity: 0.6;
-    transition: opacity 0.5s linear;
-}
-.flex-container > div:hover{
-    opacity: 1;
-    
+:root{
+    --texcolor:green;
+    --bgcolor:aqua;
+    --fonsize:30px;
+    --fonfami:cursive;
 }
 
 
-
-.flex-container > div > img{
-    border-radius: 10px;
-    box-shadow: 0 10px 10px 0 rgba(0,0,0,0.5), 0 20px 20px 0 rgba(0,0,0,0.5);
+div{
+    border: 3px solid var(--texcolor);
+    background-color: var(--bgcolor);
+    padding: 10px;
 }
 
-.flex-container > div > h2{
-    text-align: center;
-    font-family: cursive;
+p{
+    --texcolor:blue;   local variable declaration and overridding the global variable 
+    color: var(--texcolor);
+    font-size: var(--fonsize);
+    font-family: var(--fonfami);
 }
 
-@media screen and (max-width:480px)
-{
-    .flex-container{
-        width:86%;
+
+@media screen and (max-width:400px) {
+    h1{
+        --texcolor:blue;
+       color: var(--texcolor);
+       font-family: var(--fonfami);
     }
+} */
+
+
+/* css @property */
+/* @property --textcolor{
+    syntax: "<color>";
+    inherits: true;
+    initial-value: aqua;
 }
+
+
+h1{
+    color: var(--textcolor);
+}
+
+p{
+    --textcolor:red;
+    color: var(--textcolor);
+} */
+
+
+
+/* css object fit and position */
+
+/* img{
+    width: 300px;
+    height: 300px;
+    object-fit:cover;
+    border: 2px solid;
+    object-position:0% 100%;
+} */
+
+
+
+
+
+
+
