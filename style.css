@@ -94,3 +94,15 @@ div > h1{
 }
 
 
+@media screen and (max-width:480px) {
+    .flex-container{
+        width: 90%;
+    }    
+
+    .flex-container > div > img{
+        width: 250px;
+        height: 250px;
+    }
+}
+
+
