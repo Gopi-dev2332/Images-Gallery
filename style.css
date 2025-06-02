@@ -1,0 +1,96 @@
+/* div{
+    display: flex;
+    background-color: aquamarine;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    
+    
+}
+ div > h1{
+    margin: 10px;
+    background-color: yellow;
+    padding: 5px;
+    
+ } */
+
+/* div{
+    background-color: aqua;
+    display: flex;
+    width: 400px;
+    height: 300px;
+    flex-wrap: wrap;
+    align-content: space-evenly;
+ 
+}
+
+div > h1{
+    background-color: yellow;
+    height: fit-content;
+    margin: 10px;
+    padding: 5px;
+} */
+
+
+
+/* flex-items*/
+
+/* div{
+    background-color: aqua;
+    display: flex;
+    height: 200px;
+}
+
+div > h1{
+    background-color: yellow;
+    margin: 10px;
+    padding: 5px;
+    height: fit-content;
+    
+} */
+
+
+
+/* Flex-box image gallery */
+.flex-container{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+    align-content: space-evenly;
+    background-color: aquamarine;
+    width: 76%;
+    margin: 30px auto 30px auto;
+    border: 2px solid;
+    border-radius: 30px;
+}
+
+.flex-container > h1{
+    font-family: cursive;
+    width: 100%;
+    text-align: center;
+}
+
+.flex-container > div{
+    margin: 10px;
+    flex-basis: 20%;
+    opacity: 0.6;
+    transition: opacity 0.5s linear;
+}
+.flex-container > div:hover{
+    opacity: 1;
+    
+}
+
+
+
+.flex-container > div > img{
+    border-radius: 10px;
+    box-shadow: 0 10px 10px 0 rgba(0,0,0,0.5), 0 20px 20px 0 rgba(0,0,0,0.5);
+}
+
+.flex-container > div > h2{
+    text-align: center;
+    font-family: cursive;
+}
+
+
