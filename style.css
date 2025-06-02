@@ -93,4 +93,9 @@ div > h1{
     font-family: cursive;
 }
 
-
+@media screen and (max-width:480px)
+{
+    .flex-container{
+        width:86%;
+    }
+}
